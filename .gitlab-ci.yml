@@ -116,7 +116,10 @@ testacceptance:
   script:
     - /bin/bash -l -c "bundle install"
     - /bin/bash -l -c "yarn install"
-    - /bin/bash -l -c "RAILS_ENV=test bundle exec bin/rails db:migrate  db:test:prepare && bundle exec rake assets:precompile  && bundle exec rspec spec/features"
+    - /bin/bash -l -c "RAILS_ENV=test bundle exec bin/rails db:migrate  db:test:prepare"
+    - /bin/bash -l -c "RAILS_ENV=test bundle exec rake assets:precompile"
+    - /bin/bash -l -c "RAILS_ENV=test bundle exec bin/rails db:seed"
+    - /bin/bash -l -c "RAILS_ENV=test bundle exec rspec spec/features"
   except:
     variables:
     - $CI_COMMIT_MESSAGE =~ /skip[ _-]acceptance/i
