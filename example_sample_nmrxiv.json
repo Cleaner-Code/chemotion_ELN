@@ -1,0 +1,119 @@
+{
+  "@context": "https://schema.org/",
+  "@type": "MolecularEntity",
+  "dct:conformsTo": {
+    "http://purl.org/dc/terms/conformsTo": {
+      "@id": "https://bioschemas.org/profiles/MolecularEntity/0.5-RELEASE",
+      "@type": "CreativeWork"
+    }
+  },
+  "@id": "chemotion sample ID",
+  "name": "ethyl 3-oxo-4H-quinoxaline-2-carboxylate",
+  "url": "http://chemotion.net/home/samples/6338",
+  "identifier": "chemotion sample ID",
+  "iupacName": "ethyl 3-oxo-4H-quinoxaline-2-carboxylate",
+  "smiles": "CCOC(=O)c1nc2ccccc2nc1O",
+  "inChI": "InChI=1S/C11H10N2O3/c1-2-16-11(15)9-10(14)13-8-6-4-3-5-7(8)12-9/h3-6H,2H2,1H3,(H,13,14)",
+  "inChIKey": "MIIFHRBUBUHJMC-UHFFFAOYSA-N",
+  "molecularFormula": "C11H10N2O3",
+  "meltingPoint": "10 - 20 °C",
+  "boilingPoint": "20 °C",
+  "molecularWeight": {
+    "value": 218.20870000000002
+  },
+  "analysisList": {
+    "numberOfItems": 2,
+    "itemListElement": [
+      {
+        "@type": "AnalysisEntity",
+        "@id": "chemotion analysis ID",
+        "ontologies": "13C nuclear magnetic resonance spectroscopy (13C NMR)",
+        "title": "13C nuclear magnetic resonance spectroscopy (13C NMR) (4-(2-oxo-2-phenylacetyl)benzoic acid)",
+        "descriptions": "13C NMR (100 MHz, DMSO-d6, ppm) δ = 194.2 (s, Cq), 194.1 (s, Cq), 166.3 (s, Cq), 135.7 (s, 2 x Cq), 135.1 (s, Cq), 132.0 (s, CarH), 130.1 (s, 2 x CarH), 129.9 (s, 2 x CarH), 129.8 (s, 2 x CarH), 129.5 (s, 2 x CarH).",
+        "url": "https://dx.doi.org/10.14272/MWJHDSAAGSURCA-UHFFFAOYSA-N/CHMO0000595",
+        "identifier": "chemotion analysis ID",
+        "datasetList": {
+          "numberOfItems": 2,
+          "itemListElement": [
+            {
+              "@type": "DatasetEntity",
+              "identifier": "chemotion dataset ID",
+              "name": "BJ68_1H",
+              "Instrument": "Bruker 400 MHz",
+              "descriptions": "Bruker 400 MHz",
+              "attachmentList": {
+                "numberOfItems": 2,
+                "itemListElement": [
+                  {
+                    "@type": "AttachmentEntity",
+                    "identifier": "a63e278b-22f2-4da3-955f-e80e197bc853",
+                    "filename": "BJ68_1H.zip",
+                    "filepath": "data/a63e278b-22f2-4da3-955f-e80e197bc853"
+                  },
+                  {
+                    "@type": "AttachmentEntity",
+                    "identifier": "68308579-d563-46f5-97cb-5b34e91e864a",
+                    "filename": "HRMS.jpg",
+                    "filepath": "data/68308579-d563-46f5-97cb-5b34e91e864a"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      },
+      {
+        "@type": "AnalysisEntity",
+        "@id": "123",
+        "ontologies": "13C nuclear magnetic resonance spectroscopy (13C NMR)",
+        "title": "13C nuclear magnetic resonance spectroscopy (13C NMR) (4-(2-oxo-2-phenylacetyl)benzoic acid)",
+        "descriptions": "13C NMR (100 MHz, DMSO-d6, ppm) δ = 194.2 (s, Cq), 194.1 (s, Cq), 166.3 (s, Cq), 135.7 (s, 2 x Cq), 135.1 (s, Cq), 132.0 (s, CarH), 130.1 (s, 2 x CarH), 129.9 (s, 2 x CarH), 129.8 (s, 2 x CarH), 129.5 (s, 2 x CarH).",
+        "url": "https://dx.doi.org/10.14272/MWJHDSAAGSURCA-UHFFFAOYSA-N/CHMO0000595",
+        "identifier": "123",
+        "datasetList": {
+          "numberOfItems": 2,
+          "itemListElement": [
+            {
+              "@type": "DatasetEntity",
+              "identifier": "12345",
+              "name": "BJ68_1H",
+              "Instrument": "Bruker 400 MHz",
+              "descriptions": "Bruker 400 MHz",
+              "attachmentList": {
+                "numberOfItems": 2,
+                "itemListElement": [
+                  {
+                    "@type": "AttachmentEntity",
+                    "identifier": "a63e278b-22f2-4da3-955f-e80e197bc853",
+                    "filename": "BJ68_1H.zip",
+                    "filepath": "data/a63e278b-22f2-4da3-955f-e80e197bc853"
+                  },
+                  {
+                    "@type": "AttachmentEntity",
+                    "identifier": "68308579-d563-46f5-97cb-5b34e91e864a",
+                    "filename": "HRMS.jpg",
+                    "filepath": "data/68308579-d563-46f5-97cb-5b34e91e864a"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      }
+    ]
+  },
+  "citationList": {
+    "numberOfItems": 1,
+    "itemListElement": [
+      {
+        "@type": "CitationEntity",
+        "@id": "chemotion citation id",
+        "author": "Lukas Wang",
+        "title": "Novel Lanthanide-Based Luminescent Probes for Biological and Lighting Applications (Beitrage Zur Organischen Synthese)"
+      }
+    ]
+  },
+  "license": {
+    "title": "Creative Commons Attribution Non Commercial Share Alike 4.0 International"
+  }
+}
