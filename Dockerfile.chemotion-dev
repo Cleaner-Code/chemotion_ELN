@@ -73,4 +73,3 @@ RUN sudo apt-get -y --fix-missing install \
     libboost-serialization1.71.0 \
     libboost-iostreams1.71.0 \
     libboost-system1.71.0
-RUN sudo apt-get -y --fix-missing install ripgrep
